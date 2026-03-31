@@ -5,7 +5,7 @@
 #define LED_PIN     PIN14
 
 int main(void)
-{
+{ 
 
     RCC->AHB1ENR |= GPIODEN;
 
